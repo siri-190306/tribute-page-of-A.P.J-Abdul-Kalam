@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.7;
+    color: #243047;
+    background-color: #f4f7fb;
+}
+.hero {
+    background: linear-gradient(135deg, #102a56, #2878a8);
+    color: white;
+    text-align: center;
+    padding: 55px 20px;
+}
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+.hero p {
+    font-size: 1.1rem;
+}
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+.intro {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+figure {
+    flex: 1;
+    text-align: center;
+}
+figure img {
+    width: 100%;
+    max-width: 300px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+figcaption {
+    font-size: 0.9rem;
+    color: #64748b;
+    margin-top: 10px;
+}
+.intro-text {
+    flex: 1.5;
+}
+h2 {
+    color: #174b83;
+    margin-bottom: 12px;
+}
+.content-section {
+    background: white;
+    margin-top: 25px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+.content-section ul {
+    padding-left: 25px;
+}
+.timeline p {
+    padding: 10px 15px;
+    margin: 10px 0;
+    border-left: 4px solid #2878a8;
+    background: #f0f6fc;
+}
+.quote {
+    text-align: center;
+    margin: 25px 0;
+    padding: 30px 20px;
+    background: #e2edf9;
+    border-radius: 12px;
+}
+blockquote {
+    font-size: 1.3rem;
+    font-style: italic;
+    color: #174b83;
+}
+footer {
+    background: #102a56;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+@media (max-width: 650px) {
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+    .intro {
+        flex-direction: column;
+        text-align: center;
+    }
+    .intro-text {
+        text-align: left;
+    }
+    figure img {
+        height: auto;
+    }
+    main {
+        padding: 0 12px;
+    }
+    .content-section {
+        padding: 18px;
+    }
+}
